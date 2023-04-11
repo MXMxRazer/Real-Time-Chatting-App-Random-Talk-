@@ -1,0 +1,56 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Kriti's-PC\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @mui/material/core
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\Kriti's-PC\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Kriti's-PC\AppData\Local\Programs\Python\Python310\;C:\Users\Kriti's-PC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Kriti's-PC\AppData\Roaming\npm;C:\xampp\php;C:\Users\Kriti's-PC\AppData\Local\GitHubDesktop\bin;C:\flutter\bin;C:\Users\Kriti's-PC\AppData\Local\Pub\Cache\bin;C:\Users\Kriti's-PC\.cache\firebase\tools\lib\node_modules;C:\Users\Kriti's-PC\AppData\Roaming\npm;C:\Program Files\Eclipse Adoptium\jdk-17.0.3.7-hotspot\bin;C:\Program Files\MongoDB\Server\6.0\bin;C:\xampp\mysql\bin;C:\Program Files\PostgreSQL\14\bin;C:\Users\Kriti's-PC\Desktop\reactScrapper\ts\node_modules\typescript\bin;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.14.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@mui%2fmaterial/core: Request "https://registry.yarnpkg.com/@mui%2fmaterial/core" returned a 405
+      at Request.params.callback [as _callback] (C:\Users\Kriti's-PC\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66154:18)
+      at Request.self.callback (C:\Users\Kriti's-PC\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140890:22)
+      at Request.emit (node:events:526:28)
+      at Request.<anonymous> (C:\Users\Kriti's-PC\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141862:10)
+      at Request.emit (node:events:526:28)
+      at IncomingMessage.<anonymous> (C:\Users\Kriti's-PC\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:645:28)
+      at IncomingMessage.emit (node:events:538:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "chatproject",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+      "@types/react": "^18.0.17",
+      "@types/react-dom": "^18.0.6",
+      "@vitejs/plugin-react": "^2.1.0",
+      "vite": "^3.1.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
