@@ -1,6 +1,6 @@
 # Real-Time-Chatting-App / Random TALK
 
-This is a project that encourtes the chatting features in real time system. 
+This is a project that encounters the chatting features in real time system. 
 
 It allows the users to join a specific room with their own room id and name and allows them to chat to each other in any form of text. However, the backend support is not connected to any data storage platform (database), hence, the information remain volatile, which is great for exchanging some secret info for one time usage. 
 
